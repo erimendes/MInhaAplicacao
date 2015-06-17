@@ -1,7 +1,6 @@
 package com.example.frabelo.minhaaplicacao;
 
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.Toast;
 

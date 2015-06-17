@@ -82,14 +82,14 @@
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:id="@+id/txtEndereco"
-            android:text="Especialidade"
+            android:text="Especialidades"
             android:layout_below="@+id/txtNome">
         </TextView>
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:id="@+id/txtTelefone"
-            android:text="Telefone"
+            android:text="Endereços"
             android:layout_below="@+id/txtEndereco">
         </TextView>
     </RelativeLayout>
