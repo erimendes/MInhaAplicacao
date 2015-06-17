@@ -14,12 +14,18 @@
             android:id="@+id/especialidade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:paddingLeft="5dip"
             android:text="Especialidade: "/>
 
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="1dip"
+            android:paddingBottom="1dip"
+            android:paddingLeft="1dip"
             android:entries="@array/planets_array" />
 
     </LinearLayout>
@@ -33,6 +39,9 @@
             android:id="@+id/cidade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:paddingLeft="5dip"
             android:text="Cidade: "/>
 
         <Spinner
@@ -75,12 +84,18 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:paddingLeft="5dip"
             android:id="@+id/txtNome"
             android:text="Nome">
         </TextView>
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:paddingLeft="5dip"
             android:id="@+id/txtEndereco"
             android:text="Especialidades"
             android:layout_below="@+id/txtNome">
@@ -88,6 +103,9 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:paddingLeft="5dip"
             android:id="@+id/txtTelefone"
             android:text="Endereços"
             android:layout_below="@+id/txtEndereco">
