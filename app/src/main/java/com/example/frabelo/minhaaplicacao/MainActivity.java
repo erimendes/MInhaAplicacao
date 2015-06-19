@@ -10,6 +10,8 @@ import android.widget.Spinner;
 public class MainActivity extends ActionBarActivity {
 
     private Spinner spinner1;
+    private Spinner spinner2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,4 +44,5 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
